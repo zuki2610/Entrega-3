@@ -70,4 +70,177 @@
               filter: blur(12px) opacity(0%);
     }
   }
-  
+  /*estilos de trivia*/
+  .trivia {
+    background-image: url("https://raw.githubusercontent.com/zuki2610/Entrega-3/main/assets/img/bg-trivia.jpg");
+    background-size: cover;
+} 
+
+.swirl-in-fwd {
+    -webkit-animation: swirl-in-fwd 0.8s ease-out both;
+    animation: swirl-in-fwd 0.8s ease-out both;
+}
+
+@-webkit-keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+.vibrate-1 {
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+.boton {
+    margin-top: 4vh;
+    margin-left: 15vw;
+}
+.container-grid {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main section"
+        "footer footer";
+    gap: 10px;
+}
+header {
+    grid-area: header;
+}
+
+main, .main {
+    grid-area: main;
+    margin-left: 22vh;
+    margin-top: 7vh;
+}
+
+section, .section {
+    grid-area: section;
+    margin-top: 14vh;
+}
+.card {
+    box-shadow: 0vh 0vh 30vh 0vh #dcd7d7;
+}
+.slide-in-bck-bottom {
+	-webkit-animation: slide-in-bck-bottom 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-bottom 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-bck-bottom {
+    0% {
+      -webkit-transform: translateZ(700px) translateY(300px);
+              transform: translateZ(700px) translateY(300px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bck-bottom {
+    0% {
+      -webkit-transform: translateZ(700px) translateY(300px);
+              transform: translateZ(700px) translateY(300px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+    }
+footer{
+    grid-area: footer;
+}
+.logoimg {
+    margin-left: 29vw;
+}
+/*Diversion Styles*/
+.diversion {
+    background-image: url("https://raw.githubusercontent.com/zuki2610/Entrega-3/main/assets/img/bg-login.jpg");
+}
+

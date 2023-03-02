@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
 
   swal('¡Inicio de sesión exitoso!', '', 'success')
     .then(() => {
-      window.location.href = 'trivia.html';
+      window.location.href = './trivia/trivia.html';
     });
 });
 
