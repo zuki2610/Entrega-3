@@ -1,3 +1,73 @@
-login {
-    background-image: url("");
+* {
+    font-family: 'Marvel', sans-serif;
 }
+.login {
+    background-image: url("https://raw.githubusercontent.com/zuki2610/Entrega-3/main/assets/img/bg-login.jpg");
+}
+.login-card {
+    margin-left: 5vw;
+    margin-top: 40vh;
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+.blur-out-expand-fwd {
+	-webkit-animation: blur-out-expand-fwd 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: blur-out-expand-fwd 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes blur-out-expand-fwd {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-filter: blur(0.01);
+              filter: blur(0.01);
+    }
+    100% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px) opacity(0%);
+              filter: blur(12px) opacity(0%);
+    }
+  }
+  @keyframes blur-out-expand-fwd {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-filter: blur(0.01);
+              filter: blur(0.01);
+    }
+    100% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px) opacity(0%);
+              filter: blur(12px) opacity(0%);
+    }
+  }
+  

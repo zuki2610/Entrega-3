@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="sweetalert2.all.min.js"></script>
 </head>
+
 <body class="login">
-    <form>
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Iniciar sesión</button>
-      </form>
+    
+    <h1 class="text-light d-flex justify-content-center text-focus-in">Are you ready to know it?</h1>
+    <h2 class="text-light d-flex justify-content-center blur-out-expand-fwd">Let's do this</h2>
+    
+    <div class="card pb-2 pt-2 bg-secondary login-card" style="width: 18rem;">
+        <form>     
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item bg-secondary d-flex justify-content-center flex-column"> <label for="email">Correo electrónico:</label> <input type="email" id="email" name="email" required></li>
+          <li class="list-group-item bg-secondary d-flex justify-content-center flex-column">  <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required></li>
+          <li class="list-group-item bg-secondary d-flex justify-content-center">  <button type="submit" class="btn btn-info">Iniciar sesión</button></li>
+        </ul>
+    </form>  
+    </div>
 
-
-
-
-      <script src="main.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
