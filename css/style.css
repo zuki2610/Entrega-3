@@ -241,6 +241,12 @@ footer{
 }
 /*Diversion Styles*/
 .diversion {
-    background-image: url("https://raw.githubusercontent.com/zuki2610/Entrega-3/main/assets/img/bg-login.jpg");
+    background-image: url("https://raw.githubusercontent.com/zuki2610/Entrega-3/main/assets/img/bg-diversion.jpg");
 }
-
+.tony {
+    margin-left: 52vw;
+}
+.thanos {
+    height: 150px;
+    margin-left: 4vw;
+}
