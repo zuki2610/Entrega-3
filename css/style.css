@@ -3,6 +3,7 @@
 }
 .login {
     background-image: url("https://raw.githubusercontent.com/zuki2610/Entrega-3/main/assets/img/bg-login.jpg");
+    background-size: cover;
 }
 .login-card {
     margin-left: 5vw;
@@ -237,7 +238,7 @@ footer{
     grid-area: footer;
 }
 .logoimg {
-    margin-left: 29vw;
+    margin-left: 33%;
 }
 /*Diversion Styles*/
 .diversion {
