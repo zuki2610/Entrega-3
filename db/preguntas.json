@@ -1,0 +1,44 @@
+{
+    "preguntas":[
+    {
+      "id": 1,
+      "pregunta": "¿Qué prefieres?",
+      "respuesta1": "Cumplir con las leyes y ser correcto",
+      "valorRespuesta1": 2,
+      "respuesta2": "¿Qué es la ley? No hay nada que me detenga",
+      "valorRespuesta2": 1
+    },
+    {
+      "id": 2,
+      "pregunta": "En situaciones de peligro...",
+      "respuesta1": "Pienso razonablemente antes de actuar",
+      "valorRespuesta1": 2,
+      "respuesta2": "Actúo sin pensar y sigo mi instinto",
+      "valorRespuesta2": 1
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Mentir o Decir la verdad?",
+      "respuesta1": "Decir la verdad",
+      "valorRespuesta1": 2,
+      "respuesta2": "Mentir no está tan mal",
+      "valorRespuesta2": 1
+    },
+    {
+      "id": 4,
+      "pregunta": "Si se trata de tomar la iniciativa...",
+      "respuesta1": "Soy un lider nato",
+      "valorRespuesta1": 2,
+      "respuesta2": "Prefiero esperar a que otros tomen la iniciativa",
+      "valorRespuesta2": 1
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Lobo solitario? o ¿O amigos por siempre?",
+      "respuesta1": "Necesito mi espacio",
+      "valorRespuesta1": 2,
+      "respuesta2": "Prefiero estar rodeado de amigos",
+      "valorRespuesta2": 1
+    }
+  ]
+}
