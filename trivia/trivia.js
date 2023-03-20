@@ -1,5 +1,5 @@
 const heroes = [];
-fetch("./db/heroes.json")
+fetch("/db/heroes.json")
   .then(response => response.json())
   .then(data => {
     console.log(data);
@@ -9,7 +9,7 @@ fetch("./db/heroes.json")
   .catch(error => console.error(error)); 
 const preguntas =  [];
 
-fetch("./db/preguntas.json")
+fetch("/db/preguntas.json")
   .then(response => response.json())
   .then(data => {
     console.log(data);
